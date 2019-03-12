@@ -1,0 +1,4961 @@
+{
+  "applications": {
+    "versions__delta": "1",
+    "apps__hashcode": "UNKNOWN_1_UP_107_",
+    "application": [
+      {
+        "name": "LEO-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "209311e702f4:leo-service:1.0.0:15888",
+            "hostName": "10.42.170.191",
+            "app": "LEO-SERVICE:1.0.0",
+            "ipAddr": "10.42.170.191",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15888,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099392,
+              "lastRenewalTimestamp": 1552361631929,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1549951988619
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.170.191:15888/",
+            "statusPageUrl": "http://10.42.170.191:15888/info",
+            "healthCheckUrl": "http://10.42.170.191:15888/health",
+            "vipAddress": "leo-service:1.0.0",
+            "secureVipAddress": "leo-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099392",
+            "lastDirtyTimestamp": "1550462098984",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "HADES-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "4645e039a63b:hades-service:1.0.0:15002",
+            "hostName": "10.42.177.248",
+            "app": "HADES-SERVICE:1.0.0",
+            "ipAddr": "10.42.177.248",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15002,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550566035814,
+              "lastRenewalTimestamp": 1552361634591,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550566035814
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.177.248:15002/",
+            "statusPageUrl": "http://10.42.177.248:15002/info",
+            "healthCheckUrl": "http://10.42.177.248:15002/health",
+            "vipAddress": "hades-service:1.0.0",
+            "secureVipAddress": "hades-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550566035814",
+            "lastDirtyTimestamp": "1550566035798",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "JUNO-SERVICE-FK:1.0.0",
+        "instance": [
+          {
+            "instanceId": "63c51bebb8de:juno-service-fk:1.0.0:15041",
+            "hostName": "10.42.160.202",
+            "app": "JUNO-SERVICE-FK:1.0.0",
+            "ipAddr": "10.42.160.202",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15041,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099973,
+              "lastRenewalTimestamp": 1552361632484,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546842529637
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.160.202:15041/",
+            "statusPageUrl": "http://10.42.160.202:15041/info",
+            "healthCheckUrl": "http://10.42.160.202:15041/health",
+            "vipAddress": "juno-service-fk:1.0.0",
+            "secureVipAddress": "juno-service-fk:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099973",
+            "lastDirtyTimestamp": "1550462099500",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "LENNETH-GRAPHQL:1.0.0",
+        "instance": [
+          {
+            "instanceId": "7bdec5116e:lenneth-graphql:1.0.0:4000",
+            "hostName": "10.42.213.110",
+            "app": "LENNETH-GRAPHQL:1.0.0",
+            "ipAddr": "10.42.213.110",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4000,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1550220948868,
+              "lastRenewalTimestamp": 1552361711981,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550220948868
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.213.110:4000/",
+            "statusPageUrl": "http://10.42.213.110:4000/info",
+            "healthCheckUrl": "http://10.42.213.110:4000/health",
+            "vipAddress": "lenneth-graphql:1.0.0",
+            "secureVipAddress": "lenneth-graphql:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550220948868",
+            "lastDirtyTimestamp": "1550220948868",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-F:1.0.0",
+        "instance": [
+          {
+            "instanceId": "8954173f25:sparta-f:1.0.0:80",
+            "hostName": "10.42.16.98",
+            "app": "SPARTA-F:1.0.0",
+            "ipAddr": "10.42.16.98",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1547086021930,
+              "lastRenewalTimestamp": 1552361634199,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790739
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.16.98:80/",
+            "statusPageUrl": "http://10.42.16.98:80/info",
+            "healthCheckUrl": "http://10.42.16.98:80/health",
+            "vipAddress": "sparta-f:1.0.0",
+            "secureVipAddress": "sparta-f:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1547086021931",
+            "lastDirtyTimestamp": "1547086021690",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "GSK-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "124612240e67:gsk-service:1.0.0:15033",
+            "hostName": "10.42.28.224",
+            "app": "GSK-SERVICE:1.0.0",
+            "ipAddr": "10.42.28.224",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15033,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551951978119,
+              "lastRenewalTimestamp": 1552361632224,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551951978119
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.28.224:15033/",
+            "statusPageUrl": "http://10.42.28.224:15033/info",
+            "healthCheckUrl": "http://10.42.28.224:15033/health",
+            "vipAddress": "gsk-service:1.0.0",
+            "secureVipAddress": "gsk-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551951978119",
+            "lastDirtyTimestamp": "1551951976050",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "OCEAN-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "d3f02b1293ad:ocean-service:1.0.0:15072",
+            "hostName": "10.42.244.212",
+            "app": "OCEAN-SERVICE:1.0.0",
+            "ipAddr": "10.42.244.212",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15072,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099975,
+              "lastRenewalTimestamp": 1552361631386,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546937017674
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.244.212:15072/",
+            "statusPageUrl": "http://10.42.244.212:15072/info",
+            "healthCheckUrl": "http://10.42.244.212:15072/health",
+            "vipAddress": "ocean-service:1.0.0",
+            "secureVipAddress": "ocean-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099975",
+            "lastDirtyTimestamp": "1550462099596",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "GAIA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "31ee5aa27386:gaia-service:1.0.0:15031",
+            "hostName": "10.42.150.17",
+            "app": "GAIA-SERVICE:1.0.0",
+            "ipAddr": "10.42.150.17",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099050,
+              "lastRenewalTimestamp": 1552361633045,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1549952020693
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.150.17:15031/",
+            "statusPageUrl": "http://10.42.150.17:15031/info",
+            "healthCheckUrl": "http://10.42.150.17:15031/health",
+            "vipAddress": "gaia-service:1.0.0",
+            "secureVipAddress": "gaia-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099051",
+            "lastDirtyTimestamp": "1550462099035",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "ATHENA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "0db6d29e3da8:athena-service:1.0.0:10054",
+            "hostName": "10.42.110.18",
+            "app": "ATHENA-SERVICE:1.0.0",
+            "ipAddr": "10.42.110.18",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 10054,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099973,
+              "lastRenewalTimestamp": 1552361632484,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550454730174
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.110.18:10054/",
+            "statusPageUrl": "http://10.42.110.18:10054/info",
+            "healthCheckUrl": "http://10.42.110.18:10054/health",
+            "vipAddress": "athena-service:1.0.0",
+            "secureVipAddress": "athena-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099973",
+            "lastDirtyTimestamp": "1550462099489",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "METIS-SERVICE:1.0.0_LEE",
+        "instance": [
+          {
+            "instanceId": "ab66042cf217:metis-service:1.0.0_lee:8080",
+            "hostName": "10.42.87.69",
+            "app": "METIS-SERVICE:1.0.0_LEE",
+            "ipAddr": "10.42.87.69",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 8080,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099940,
+              "lastRenewalTimestamp": 1552361632995,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915721558
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.87.69:8080/",
+            "statusPageUrl": "http://10.42.87.69:8080/info",
+            "healthCheckUrl": "http://10.42.87.69:8080/health",
+            "vipAddress": "metis-service:1.0.0_lee",
+            "secureVipAddress": "metis-service:1.0.0_lee",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099940",
+            "lastDirtyTimestamp": "1550462099936",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "UAC-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "210c1c6d26e1:uac-service:1.0.0:15031",
+            "hostName": "10.42.107.233",
+            "app": "UAC-SERVICE:1.0.0",
+            "ipAddr": "10.42.107.233",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550672676507,
+              "lastRenewalTimestamp": 1552361631386,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550672676507
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.107.233:15031/",
+            "statusPageUrl": "http://10.42.107.233:15031/info",
+            "healthCheckUrl": "http://10.42.107.233:15031/health",
+            "vipAddress": "uac-service:1.0.0",
+            "secureVipAddress": "uac-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550672676507",
+            "lastDirtyTimestamp": "1550672676446",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "PALLAS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "75114588c907:pallas-service:1.0.0:10094",
+            "hostName": "10.42.210.6",
+            "app": "PALLAS-SERVICE:1.0.0",
+            "ipAddr": "10.42.210.6",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 10094,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099973,
+              "lastRenewalTimestamp": 1552361631385,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915739836
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.210.6:10094/",
+            "statusPageUrl": "http://10.42.210.6:10094/info",
+            "healthCheckUrl": "http://10.42.210.6:10094/health",
+            "vipAddress": "pallas-service:1.0.0",
+            "secureVipAddress": "pallas-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099973",
+            "lastDirtyTimestamp": "1550462099473",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "ERIS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "961ef166c848:eris-service:1.0.0:16001",
+            "hostName": "10.42.86.160",
+            "app": "ERIS-SERVICE:1.0.0",
+            "ipAddr": "10.42.86.160",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 16001,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099541,
+              "lastRenewalTimestamp": 1552361631042,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915753933
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.86.160:16001/",
+            "statusPageUrl": "http://10.42.86.160:16001/info",
+            "healthCheckUrl": "http://10.42.86.160:16001/health",
+            "vipAddress": "eris-service:1.0.0",
+            "secureVipAddress": "eris-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099541",
+            "lastDirtyTimestamp": "1550462099538",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "CAELUS-SERVICE-FK:1.0.0",
+        "instance": [
+          {
+            "instanceId": "962333edef6d:caelus-service-fk:1.0.0:15056",
+            "hostName": "10.42.54.124",
+            "app": "CAELUS-SERVICE-FK:1.0.0",
+            "ipAddr": "10.42.54.124",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15056,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099820,
+              "lastRenewalTimestamp": 1552361633917,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546842487452
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.54.124:15056/",
+            "statusPageUrl": "http://10.42.54.124:15056/info",
+            "healthCheckUrl": "http://10.42.54.124:15056/health",
+            "vipAddress": "caelus-service-fk:1.0.0",
+            "secureVipAddress": "caelus-service-fk:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099820",
+            "lastDirtyTimestamp": "1550462099462",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "UNION-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "8b71dbeb56:union-service:1.0.0:4000",
+            "hostName": "10.42.4.207",
+            "app": "UNION-SERVICE:1.0.0",
+            "ipAddr": "10.42.4.207",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4000,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1551857241625,
+              "lastRenewalTimestamp": 1552361711930,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551857241625
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.4.207:4000/",
+            "statusPageUrl": "http://10.42.4.207:4000/info",
+            "healthCheckUrl": "http://10.42.4.207:4000/health",
+            "vipAddress": "union-service:1.0.0",
+            "secureVipAddress": "union-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551857241625",
+            "lastDirtyTimestamp": "1551857241370",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "AGLAIA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "9aaabe5929f0:aglaia-service:1.0.0:15078",
+            "hostName": "10.42.115.172",
+            "app": "AGLAIA-SERVICE:1.0.0",
+            "ipAddr": "10.42.115.172",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15078,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551925447265,
+              "lastRenewalTimestamp": 1552361632484,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551925447265
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.115.172:15078/",
+            "statusPageUrl": "http://10.42.115.172:15078/info",
+            "healthCheckUrl": "http://10.42.115.172:15078/health",
+            "vipAddress": "aglaia-service:1.0.0",
+            "secureVipAddress": "aglaia-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551925447265",
+            "lastDirtyTimestamp": "1551925447121",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "PUDGE-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "54ad7ae81e35:pudge-service:1.0.0:15033",
+            "hostName": "10.42.90.142",
+            "app": "PUDGE-SERVICE:1.0.0",
+            "ipAddr": "10.42.90.142",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15033,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099823,
+              "lastRenewalTimestamp": 1552361632735,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790792
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.90.142:15033/",
+            "statusPageUrl": "http://10.42.90.142:15033/info",
+            "healthCheckUrl": "http://10.42.90.142:15033/health",
+            "vipAddress": "pudge-service:1.0.0",
+            "secureVipAddress": "pudge-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099823",
+            "lastDirtyTimestamp": "1550462099537",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SYT-TASK-SERVICE",
+        "instance": [
+          {
+            "instanceId": "2273a9fac6d7:syt-task-service:15210",
+            "hostName": "10.42.25.249",
+            "app": "SYT-TASK-SERVICE",
+            "ipAddr": "10.42.25.249",
+            "status": "UNKNOWN",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15210,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552361623269,
+              "lastRenewalTimestamp": 1552361623269,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 0
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.25.249:15210/",
+            "statusPageUrl": "http://10.42.25.249:15210/info",
+            "healthCheckUrl": "http://10.42.25.249:15210/health",
+            "vipAddress": "syt-task-service",
+            "secureVipAddress": "syt-task-service",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552361623270",
+            "lastDirtyTimestamp": "1546840521245",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MINOS-SERVICE-FK:1.0.0",
+        "instance": [
+          {
+            "instanceId": "f2b1ef82551e:minos-service-fk:1.0.0:15008",
+            "hostName": "10.42.114.243",
+            "app": "MINOS-SERVICE-FK:1.0.0",
+            "ipAddr": "10.42.114.243",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15008,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099975,
+              "lastRenewalTimestamp": 1552361633647,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546930000249
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.114.243:15008/",
+            "statusPageUrl": "http://10.42.114.243:15008/info",
+            "healthCheckUrl": "http://10.42.114.243:15008/health",
+            "vipAddress": "minos-service-fk:1.0.0",
+            "secureVipAddress": "minos-service-fk:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099975",
+            "lastDirtyTimestamp": "1550462099591",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MEDUSA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "25e6e17e4d10:medusa-service:1.0.0:15048",
+            "hostName": "10.42.144.185",
+            "app": "MEDUSA-SERVICE:1.0.0",
+            "ipAddr": "10.42.144.185",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15048,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551152494142,
+              "lastRenewalTimestamp": 1552361631516,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551152494142
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.144.185:15048/",
+            "statusPageUrl": "http://10.42.144.185:15048/info",
+            "healthCheckUrl": "http://10.42.144.185:15048/health",
+            "vipAddress": "medusa-service:1.0.0",
+            "secureVipAddress": "medusa-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551152494142",
+            "lastDirtyTimestamp": "1551152493615",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "HALIA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "9f9bbed21379:halia-service:1.0.0:15004",
+            "hostName": "10.42.153.192",
+            "app": "HALIA-SERVICE:1.0.0",
+            "ipAddr": "10.42.153.192",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15004,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550672661494,
+              "lastRenewalTimestamp": 1552361631385,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550672661494
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.153.192:15004/",
+            "statusPageUrl": "http://10.42.153.192:15004/info",
+            "healthCheckUrl": "http://10.42.153.192:15004/health",
+            "vipAddress": "halia-service:1.0.0",
+            "secureVipAddress": "halia-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550672661494",
+            "lastDirtyTimestamp": "1550672661345",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "HEIMDALL-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "f7a0be451ada:heimdall-service:1.0.0:15020",
+            "hostName": "10.42.61.233",
+            "app": "HEIMDALL-SERVICE:1.0.0",
+            "ipAddr": "10.42.61.233",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15020,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551695657234,
+              "lastRenewalTimestamp": 1552361631615,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551695657234
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.61.233:15020/",
+            "statusPageUrl": "http://10.42.61.233:15020/info",
+            "healthCheckUrl": "http://10.42.61.233:15020/health",
+            "vipAddress": "heimdall-service:1.0.0",
+            "secureVipAddress": "heimdall-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551695657234",
+            "lastDirtyTimestamp": "1551695657221",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MONITOR-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "c98813352311:monitor-service:1.0.0:15031",
+            "hostName": "10.42.206.70",
+            "app": "MONITOR-SERVICE:1.0.0",
+            "ipAddr": "10.42.206.70",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099393,
+              "lastRenewalTimestamp": 1552361630052,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790791
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.206.70:15031/",
+            "statusPageUrl": "http://10.42.206.70:15031/info",
+            "healthCheckUrl": "http://10.42.206.70:15031/health",
+            "vipAddress": "monitor-service:1.0.0",
+            "secureVipAddress": "monitor-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099393",
+            "lastDirtyTimestamp": "1550462099127",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "RANCHER-SCHEDULER:1.0.0",
+        "instance": [
+          {
+            "instanceId": "8db53a63a6e0:rancher-scheduler:1.0.0:16211",
+            "hostName": "10.42.233.24",
+            "app": "RANCHER-SCHEDULER:1.0.0",
+            "ipAddr": "10.42.233.24",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 16211,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099973,
+              "lastRenewalTimestamp": 1552361630873,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546942316165
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.233.24:16211/",
+            "statusPageUrl": "http://10.42.233.24:16211/info",
+            "healthCheckUrl": "http://10.42.233.24:16211/health",
+            "vipAddress": "rancher-scheduler:1.0.0",
+            "secureVipAddress": "rancher-scheduler:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099974",
+            "lastDirtyTimestamp": "1550462099534",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "EUROPE-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "8283c5af5877:europe-service:1.0.0:15031",
+            "hostName": "10.42.100.117",
+            "app": "EUROPE-SERVICE:1.0.0",
+            "ipAddr": "10.42.100.117",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552361344500,
+              "lastRenewalTimestamp": 1552361633091,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552361344500
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.100.117:15031/",
+            "statusPageUrl": "http://10.42.100.117:15031/info",
+            "healthCheckUrl": "http://10.42.100.117:15031/health",
+            "vipAddress": "europe-service:1.0.0",
+            "secureVipAddress": "europe-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552361344500",
+            "lastDirtyTimestamp": "1552361343977",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "GSK-SUPPORT-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "903fce6bc132:gsk-support-service:1.0.0:15033",
+            "hostName": "10.42.68.12",
+            "app": "GSK-SUPPORT-SERVICE:1.0.0",
+            "ipAddr": "10.42.68.12",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15033,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552359127203,
+              "lastRenewalTimestamp": 1552361631515,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552359127203
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.68.12:15033/",
+            "statusPageUrl": "http://10.42.68.12:15033/info",
+            "healthCheckUrl": "http://10.42.68.12:15033/health",
+            "vipAddress": "gsk-support-service:1.0.0",
+            "secureVipAddress": "gsk-support-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552359127203",
+            "lastDirtyTimestamp": "1552359126724",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "EUROPE-SERVICE:1.0.0.ZZ",
+        "instance": [
+          {
+            "instanceId": "10.100.0.125:europe-service:1.0.0.zz:15031",
+            "hostName": "10.100.0.125",
+            "app": "EUROPE-SERVICE:1.0.0.ZZ",
+            "ipAddr": "10.100.0.125",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552359531970,
+              "lastRenewalTimestamp": 1552361629779,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552359531970
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.100.0.125:15031/",
+            "statusPageUrl": "http://10.100.0.125:15031/info",
+            "healthCheckUrl": "http://10.100.0.125:15031/health",
+            "vipAddress": "europe-service:1.0.0.zz",
+            "secureVipAddress": "europe-service:1.0.0.zz",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552359531970",
+            "lastDirtyTimestamp": "1552359503323",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MESSAGE-STREAM-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "3c7ce1613015:message-stream-service:1.0.0:18000",
+            "hostName": "10.42.211.97",
+            "app": "MESSAGE-STREAM-SERVICE:1.0.0",
+            "ipAddr": "10.42.211.97",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 18000,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099053,
+              "lastRenewalTimestamp": 1552361632884,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1549951976943
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.211.97:18000/",
+            "statusPageUrl": "http://10.42.211.97:18000/info",
+            "healthCheckUrl": "http://10.42.211.97:18000/health",
+            "vipAddress": "message-stream-service:1.0.0",
+            "secureVipAddress": "message-stream-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099053",
+            "lastDirtyTimestamp": "1550462099044",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "VENUS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "079afb98c072:venus-service:1.0.0:15041",
+            "hostName": "10.42.142.243",
+            "app": "VENUS-SERVICE:1.0.0",
+            "ipAddr": "10.42.142.243",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15041,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099822,
+              "lastRenewalTimestamp": 1552361632735,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915308051
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.142.243:15041/",
+            "statusPageUrl": "http://10.42.142.243:15041/info",
+            "healthCheckUrl": "http://10.42.142.243:15041/health",
+            "vipAddress": "venus-service:1.0.0",
+            "secureVipAddress": "venus-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099823",
+            "lastDirtyTimestamp": "1550462099534",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-DATACENTER:1.0.0",
+        "instance": [
+          {
+            "instanceId": "a21c01c346:sparta-datacenter:1.0.0:8088",
+            "hostName": "10.42.209.188",
+            "app": "SPARTA-DATACENTER:1.0.0",
+            "ipAddr": "10.42.209.188",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 8088,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550672506539,
+              "lastRenewalTimestamp": 1552361634471,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550672506540
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.209.188:8088/",
+            "statusPageUrl": "http://10.42.209.188:8088/info",
+            "healthCheckUrl": "http://10.42.209.188:8088/health",
+            "vipAddress": "sparta-datacenter:1.0.0",
+            "secureVipAddress": "sparta-datacenter:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550672506540",
+            "lastDirtyTimestamp": "1550672506539",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "CAELUS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "442f556b18af:caelus-service:1.0.0:15014",
+            "hostName": "10.42.86.129",
+            "app": "CAELUS-SERVICE:1.0.0",
+            "ipAddr": "10.42.86.129",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15014,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550672680376,
+              "lastRenewalTimestamp": 1552361634567,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550672680376
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.86.129:15014/",
+            "statusPageUrl": "http://10.42.86.129:15014/info",
+            "healthCheckUrl": "http://10.42.86.129:15014/health",
+            "vipAddress": "caelus-service:1.0.0",
+            "secureVipAddress": "caelus-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550672680376",
+            "lastDirtyTimestamp": "1550672680371",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "HEALER-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "d87dc67608c5:healer-service:1.0.0:16714",
+            "hostName": "10.42.60.64",
+            "app": "HEALER-SERVICE:1.0.0",
+            "ipAddr": "10.42.60.64",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 16714,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099744,
+              "lastRenewalTimestamp": 1552361634693,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915703215
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.60.64:16714/",
+            "statusPageUrl": "http://10.42.60.64:16714/info",
+            "healthCheckUrl": "http://10.42.60.64:16714/health",
+            "vipAddress": "healer-service:1.0.0",
+            "secureVipAddress": "healer-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099744",
+            "lastDirtyTimestamp": "1550462099739",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "BIFROST:1.0.0",
+        "instance": [
+          {
+            "instanceId": "6c3572ae1c:bifrost:1.0.0:80",
+            "hostName": "10.42.90.72",
+            "app": "BIFROST:1.0.0",
+            "ipAddr": "10.42.90.72",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1550568330182,
+              "lastRenewalTimestamp": 1552361712421,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550568330182
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.90.72:80/",
+            "statusPageUrl": "http://10.42.90.72:80/info",
+            "healthCheckUrl": "http://10.42.90.72:80/health",
+            "vipAddress": "bifrost:1.0.0",
+            "secureVipAddress": "bifrost:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550568330182",
+            "lastDirtyTimestamp": "1550568330182",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "PERSEPHONE-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "2211418167a3:persephone-service:1.0.0:16005",
+            "hostName": "10.42.140.80",
+            "app": "PERSEPHONE-SERVICE:1.0.0",
+            "ipAddr": "10.42.140.80",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 16005,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099573,
+              "lastRenewalTimestamp": 1552361633895,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915752360
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.140.80:16005/",
+            "statusPageUrl": "http://10.42.140.80:16005/info",
+            "healthCheckUrl": "http://10.42.140.80:16005/health",
+            "vipAddress": "persephone-service:1.0.0",
+            "secureVipAddress": "persephone-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099573",
+            "lastDirtyTimestamp": "1550462099569",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "WALANI:1.0.0",
+        "instance": [
+          {
+            "instanceId": "1ad6ae77a1:walani:1.0.0:8081",
+            "hostName": "10.42.178.241",
+            "app": "WALANI:1.0.0",
+            "ipAddr": "10.42.178.241",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 8081,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1550738919499,
+              "lastRenewalTimestamp": 1552361711741,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550738919499
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.178.241:8081/",
+            "statusPageUrl": "http://10.42.178.241:8081/info",
+            "healthCheckUrl": "http://10.42.178.241:8081/health",
+            "vipAddress": "walani:1.0.0",
+            "secureVipAddress": "walani:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550738919499",
+            "lastDirtyTimestamp": "1550738919498",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "WECHAT-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "e1c91da8a6b8:wechat-service:1.0.0:15031",
+            "hostName": "10.42.255.85",
+            "app": "WECHAT-SERVICE:1.0.0",
+            "ipAddr": "10.42.255.85",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099479,
+              "lastRenewalTimestamp": 1552361632556,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790825
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.255.85:15031/",
+            "statusPageUrl": "http://10.42.255.85:15031/info",
+            "healthCheckUrl": "http://10.42.255.85:15031/health",
+            "vipAddress": "wechat-service:1.0.0",
+            "secureVipAddress": "wechat-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099479",
+            "lastDirtyTimestamp": "1550462099473",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "RHEA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "8a2c888de092:rhea-service:1.0.0:15072",
+            "hostName": "10.42.105.203",
+            "app": "RHEA-SERVICE:1.0.0",
+            "ipAddr": "10.42.105.203",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15072,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099823,
+              "lastRenewalTimestamp": 1552361633269,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546840204706
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.105.203:15072/",
+            "statusPageUrl": "http://10.42.105.203:15072/info",
+            "healthCheckUrl": "http://10.42.105.203:15072/health",
+            "vipAddress": "rhea-service:1.0.0",
+            "secureVipAddress": "rhea-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099823",
+            "lastDirtyTimestamp": "1550462099596",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "AOEDE-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "7b2025ada8ca:aoede-service:1.0.0:15088",
+            "hostName": "10.42.81.6",
+            "app": "AOEDE-SERVICE:1.0.0",
+            "ipAddr": "10.42.81.6",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15088,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099974,
+              "lastRenewalTimestamp": 1552361633092,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546936284266
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.81.6:15088/",
+            "statusPageUrl": "http://10.42.81.6:15088/info",
+            "healthCheckUrl": "http://10.42.81.6:15088/health",
+            "vipAddress": "aoede-service:1.0.0",
+            "secureVipAddress": "aoede-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099974",
+            "lastDirtyTimestamp": "1550462099566",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "ZELDA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "ba8b3b480712:zelda-service:1.0.0:18000",
+            "hostName": "10.42.122.190",
+            "app": "ZELDA-SERVICE:1.0.0",
+            "ipAddr": "10.42.122.190",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 18000,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552282677415,
+              "lastRenewalTimestamp": 1552361634545,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552282677415
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.122.190:18000/",
+            "statusPageUrl": "http://10.42.122.190:18000/info",
+            "healthCheckUrl": "http://10.42.122.190:18000/health",
+            "vipAddress": "zelda-service:1.0.0",
+            "secureVipAddress": "zelda-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552282677415",
+            "lastDirtyTimestamp": "1552282676948",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "CFGADMIN-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "b7c999ff2e41:cfgadmin-service:1.0.0:15031",
+            "hostName": "10.42.202.70",
+            "app": "CFGADMIN-SERVICE:1.0.0",
+            "ipAddr": "10.42.202.70",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1546917435128,
+              "lastRenewalTimestamp": 1552361632511,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546917435129
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.202.70:15031/",
+            "statusPageUrl": "http://10.42.202.70:15031/info",
+            "healthCheckUrl": "http://10.42.202.70:15031/health",
+            "vipAddress": "cfgadmin-service:1.0.0",
+            "secureVipAddress": "cfgadmin-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1546917435129",
+            "lastDirtyTimestamp": "1546917435117",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "FRANCHISERESTAURANTSTREAM-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "ded983093184:franchiserestaurantstream-service:1.0.0:15082",
+            "hostName": "10.42.1.79",
+            "app": "FRANCHISERESTAURANTSTREAM-SERVICE:1.0.0",
+            "ipAddr": "10.42.1.79",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15082,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551426632337,
+              "lastRenewalTimestamp": 1552361630051,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551426632337
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.1.79:15082/",
+            "statusPageUrl": "http://10.42.1.79:15082/info",
+            "healthCheckUrl": "http://10.42.1.79:15082/health",
+            "vipAddress": "franchiserestaurantstream-service:1.0.0",
+            "secureVipAddress": "franchiserestaurantstream-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551426632337",
+            "lastDirtyTimestamp": "1551426632087",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "TROY-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "966ffd226b29:troy-service:1.0.0:15033",
+            "hostName": "10.42.50.83",
+            "app": "TROY-SERVICE:1.0.0",
+            "ipAddr": "10.42.50.83",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15033,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099676,
+              "lastRenewalTimestamp": 1552361630248,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790834
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.50.83:15033/",
+            "statusPageUrl": "http://10.42.50.83:15033/info",
+            "healthCheckUrl": "http://10.42.50.83:15033/health",
+            "vipAddress": "troy-service:1.0.0",
+            "secureVipAddress": "troy-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099676",
+            "lastDirtyTimestamp": "1550462099673",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-ME:1.0.0",
+        "instance": [
+          {
+            "instanceId": "b168a1a644:sparta-me:1.0.0:80",
+            "hostName": "10.42.27.185",
+            "app": "SPARTA-ME:1.0.0",
+            "ipAddr": "10.42.27.185",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1547333825329,
+              "lastRenewalTimestamp": 1552361631694,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832789906
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.27.185:80/",
+            "statusPageUrl": "http://10.42.27.185:80/info",
+            "healthCheckUrl": "http://10.42.27.185:80/health",
+            "vipAddress": "sparta-me:1.0.0",
+            "secureVipAddress": "sparta-me:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1547333825329",
+            "lastDirtyTimestamp": "1547333824540",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "HYDRA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "06377781e15b:hydra-service:1.0.0:18000",
+            "hostName": "10.42.140.0",
+            "app": "HYDRA-SERVICE:1.0.0",
+            "ipAddr": "10.42.140.0",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 18000,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099974,
+              "lastRenewalTimestamp": 1552361630872,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546839483152
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.140.0:18000/",
+            "statusPageUrl": "http://10.42.140.0:18000/info",
+            "healthCheckUrl": "http://10.42.140.0:18000/health",
+            "vipAddress": "hydra-service:1.0.0",
+            "secureVipAddress": "hydra-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099974",
+            "lastDirtyTimestamp": "1550462099537",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "EROS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "807ed925f8f8:eros-service:1.0.0:15033",
+            "hostName": "10.42.177.223",
+            "app": "EROS-SERVICE:1.0.0",
+            "ipAddr": "10.42.177.223",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15033,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099974,
+              "lastRenewalTimestamp": 1552361630873,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790839
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.177.223:15033/",
+            "statusPageUrl": "http://10.42.177.223:15033/info",
+            "healthCheckUrl": "http://10.42.177.223:15033/health",
+            "vipAddress": "eros-service:1.0.0",
+            "secureVipAddress": "eros-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099974",
+            "lastDirtyTimestamp": "1550462099554",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "ZEUS-SERVICE-FK:1.0.0",
+        "instance": [
+          {
+            "instanceId": "17b6faca93bc:zeus-service-fk:1.0.0:15014",
+            "hostName": "10.42.55.184",
+            "app": "ZEUS-SERVICE-FK:1.0.0",
+            "ipAddr": "10.42.55.184",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15014,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099824,
+              "lastRenewalTimestamp": 1552361630996,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1547689856648
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.55.184:15014/",
+            "statusPageUrl": "http://10.42.55.184:15014/info",
+            "healthCheckUrl": "http://10.42.55.184:15014/health",
+            "vipAddress": "zeus-service-fk:1.0.0",
+            "secureVipAddress": "zeus-service-fk:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099824",
+            "lastDirtyTimestamp": "1550462099668",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SYTSTREAM-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "714e66688c55:sytstream-service:1.0.0:15040",
+            "hostName": "10.42.95.247",
+            "app": "SYTSTREAM-SERVICE:1.0.0",
+            "ipAddr": "10.42.95.247",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15040,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099603,
+              "lastRenewalTimestamp": 1552361634002,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1549951325266
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.95.247:15040/",
+            "statusPageUrl": "http://10.42.95.247:15040/info",
+            "healthCheckUrl": "http://10.42.95.247:15040/health",
+            "vipAddress": "sytstream-service:1.0.0",
+            "secureVipAddress": "sytstream-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099603",
+            "lastDirtyTimestamp": "1550462099595",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "CADMUS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "13f657a13925:cadmus-service:1.0.0:15031",
+            "hostName": "10.42.188.203",
+            "app": "CADMUS-SERVICE:1.0.0",
+            "ipAddr": "10.42.188.203",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099658,
+              "lastRenewalTimestamp": 1552361634302,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790835
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.188.203:15031/",
+            "statusPageUrl": "http://10.42.188.203:15031/info",
+            "healthCheckUrl": "http://10.42.188.203:15031/health",
+            "vipAddress": "cadmus-service:1.0.0",
+            "secureVipAddress": "cadmus-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099658",
+            "lastDirtyTimestamp": "1550462099655",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "GRUS-STREAM-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "741551d7e01f:grus-stream-service:1.0.0:15098",
+            "hostName": "10.42.168.176",
+            "app": "GRUS-STREAM-SERVICE:1.0.0",
+            "ipAddr": "10.42.168.176",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15098,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552361434533,
+              "lastRenewalTimestamp": 1552361630979,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552361434533
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.168.176:15098/",
+            "statusPageUrl": "http://10.42.168.176:15098/info",
+            "healthCheckUrl": "http://10.42.168.176:15098/health",
+            "vipAddress": "grus-stream-service:1.0.0",
+            "secureVipAddress": "grus-stream-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552361434533",
+            "lastDirtyTimestamp": "1552361434524",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "APPROVE-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "08e26706183a:approve-service:1.0.0:15036",
+            "hostName": "10.42.175.11",
+            "app": "APPROVE-SERVICE:1.0.0",
+            "ipAddr": "10.42.175.11",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15036,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099976,
+              "lastRenewalTimestamp": 1552361632484,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1548405402525
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.175.11:15036/",
+            "statusPageUrl": "http://10.42.175.11:15036/info",
+            "healthCheckUrl": "http://10.42.175.11:15036/health",
+            "vipAddress": "approve-service:1.0.0",
+            "secureVipAddress": "approve-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099976",
+            "lastDirtyTimestamp": "1550462099903",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "CONFIG-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "7cac77c8d857:config-service:1.0.0:4201",
+            "hostName": "10.42.97.114",
+            "app": "CONFIG-SERVICE:1.0.0",
+            "ipAddr": "10.42.97.114",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4201,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1551779481385,
+              "lastRenewalTimestamp": 1552361694720,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551779481385
+            },
+            "metadata": {
+              "management.port": "4201"
+            },
+            "homePageUrl": "http://10.42.97.114:4201/",
+            "statusPageUrl": "http://10.42.97.114:4201/info",
+            "healthCheckUrl": "http://10.42.97.114:4201/health",
+            "vipAddress": "config-service:1.0.0",
+            "secureVipAddress": "config-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551779481385",
+            "lastDirtyTimestamp": "1551779481343",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "PF-BUDGET-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "485cb02c6d42:pf-budget-service:1.0.0:15088",
+            "hostName": "10.42.42.135",
+            "app": "PF-BUDGET-SERVICE:1.0.0",
+            "ipAddr": "10.42.42.135",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15088,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099822,
+              "lastRenewalTimestamp": 1552361633917,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1547005789604
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.42.135:15088/",
+            "statusPageUrl": "http://10.42.42.135:15088/info",
+            "healthCheckUrl": "http://10.42.42.135:15088/health",
+            "vipAddress": "pf-budget-service:1.0.0",
+            "secureVipAddress": "pf-budget-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099822",
+            "lastDirtyTimestamp": "1550462099524",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "CHAOS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "ec19366dc218:chaos-service:1.0.0:15072",
+            "hostName": "10.42.218.8",
+            "app": "CHAOS-SERVICE:1.0.0",
+            "ipAddr": "10.42.218.8",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15072,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551666683153,
+              "lastRenewalTimestamp": 1552361634156,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915692633
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.218.8:15072/",
+            "statusPageUrl": "http://10.42.218.8:15072/info",
+            "healthCheckUrl": "http://10.42.218.8:15072/health",
+            "vipAddress": "chaos-service:1.0.0",
+            "secureVipAddress": "chaos-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551666683154",
+            "lastDirtyTimestamp": "1551666682639",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "JUNO-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "c478251b231f:juno-service:1.0.0:15041",
+            "hostName": "10.42.241.87",
+            "app": "JUNO-SERVICE:1.0.0",
+            "ipAddr": "10.42.241.87",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15041,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099821,
+              "lastRenewalTimestamp": 1552361633270,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546839496315
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.241.87:15041/",
+            "statusPageUrl": "http://10.42.241.87:15041/info",
+            "healthCheckUrl": "http://10.42.241.87:15041/health",
+            "vipAddress": "juno-service:1.0.0",
+            "secureVipAddress": "juno-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099821",
+            "lastDirtyTimestamp": "1550462099505",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NEW-CACIA:1.0.0",
+        "instance": [
+          {
+            "instanceId": "9b243d15c3:new-cacia:1.0.0:4017",
+            "hostName": "10.42.62.56",
+            "app": "NEW-CACIA:1.0.0",
+            "ipAddr": "10.42.62.56",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1552338777419,
+              "lastRenewalTimestamp": 1552361709978,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552338777419
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.62.56:4017/",
+            "statusPageUrl": "http://10.42.62.56:4017/info",
+            "healthCheckUrl": "http://10.42.62.56:4017/health",
+            "vipAddress": "new-cacia:1.0.0",
+            "secureVipAddress": "new-cacia:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552338777419",
+            "lastDirtyTimestamp": "1552338777419",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "DINNER-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "a8aca3452869:dinner-service:1.0.0:15011",
+            "hostName": "10.42.28.158",
+            "app": "DINNER-SERVICE:1.0.0",
+            "ipAddr": "10.42.28.158",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15011,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462098830,
+              "lastRenewalTimestamp": 1552361630120,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1547117189258
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.28.158:15011/",
+            "statusPageUrl": "http://10.42.28.158:15011/info",
+            "healthCheckUrl": "http://10.42.28.158:15011/health",
+            "vipAddress": "dinner-service:1.0.0",
+            "secureVipAddress": "dinner-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462098831",
+            "lastDirtyTimestamp": "1550462098826",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "PERSEUS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "64137aee1a1c:perseus-service:1.0.0:15070",
+            "hostName": "10.42.154.236",
+            "app": "PERSEUS-SERVICE:1.0.0",
+            "ipAddr": "10.42.154.236",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15070,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099149,
+              "lastRenewalTimestamp": 1552361633009,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1549952003508
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.154.236:15070/",
+            "statusPageUrl": "http://10.42.154.236:15070/info",
+            "healthCheckUrl": "http://10.42.154.236:15070/health",
+            "vipAddress": "perseus-service:1.0.0",
+            "secureVipAddress": "perseus-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099149",
+            "lastDirtyTimestamp": "1550462099142",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "PEGASUS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "ded169c0d2f9:pegasus-service:1.0.0:15052",
+            "hostName": "10.42.188.27",
+            "app": "PEGASUS-SERVICE:1.0.0",
+            "ipAddr": "10.42.188.27",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15052,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099975,
+              "lastRenewalTimestamp": 1552361633091,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546853048653
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.188.27:15052/",
+            "statusPageUrl": "http://10.42.188.27:15052/info",
+            "healthCheckUrl": "http://10.42.188.27:15052/health",
+            "vipAddress": "pegasus-service:1.0.0",
+            "secureVipAddress": "pegasus-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099975",
+            "lastDirtyTimestamp": "1550462099596",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MERCURY-SERVICE-FK:1.0.0",
+        "instance": [
+          {
+            "instanceId": "1718b62e917f:mercury-service-fk:1.0.0:15038",
+            "hostName": "10.42.189.54",
+            "app": "MERCURY-SERVICE-FK:1.0.0",
+            "ipAddr": "10.42.189.54",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15038,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099730,
+              "lastRenewalTimestamp": 1552361634563,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546842248264
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.189.54:15038/",
+            "statusPageUrl": "http://10.42.189.54:15038/info",
+            "healthCheckUrl": "http://10.42.189.54:15038/health",
+            "vipAddress": "mercury-service-fk:1.0.0",
+            "secureVipAddress": "mercury-service-fk:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099730",
+            "lastDirtyTimestamp": "1550462099727",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-WEB:1.0.0",
+        "instance": [
+          {
+            "instanceId": "c10857eee5:sparta-web:1.0.0:80",
+            "hostName": "10.42.112.124",
+            "app": "SPARTA-WEB:1.0.0",
+            "ipAddr": "10.42.112.124",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1546832790752,
+              "lastRenewalTimestamp": 1552361632813,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790752
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.112.124:80/",
+            "statusPageUrl": "http://10.42.112.124:80/info",
+            "healthCheckUrl": "http://10.42.112.124:80/health",
+            "vipAddress": "sparta-web:1.0.0",
+            "secureVipAddress": "sparta-web:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1546832790752",
+            "lastDirtyTimestamp": "1546774545317",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "DORIS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "2b135ed0bc53:doris-service:1.0.0:15031",
+            "hostName": "10.42.29.13",
+            "app": "DORIS-SERVICE:1.0.0",
+            "ipAddr": "10.42.29.13",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099604,
+              "lastRenewalTimestamp": 1552361630125,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550454479675
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.29.13:15031/",
+            "statusPageUrl": "http://10.42.29.13:15031/info",
+            "healthCheckUrl": "http://10.42.29.13:15031/health",
+            "vipAddress": "doris-service:1.0.0",
+            "secureVipAddress": "doris-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099604",
+            "lastDirtyTimestamp": "1550462099599",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "BAEY-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "ea9855287535:baey-service:1.0.0:16888",
+            "hostName": "10.42.47.251",
+            "app": "BAEY-SERVICE:1.0.0",
+            "ipAddr": "10.42.47.251",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 16888,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099589,
+              "lastRenewalTimestamp": 1552361634384,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1549951332665
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.47.251:16888/",
+            "statusPageUrl": "http://10.42.47.251:16888/info",
+            "healthCheckUrl": "http://10.42.47.251:16888/health",
+            "vipAddress": "baey-service:1.0.0",
+            "secureVipAddress": "baey-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099589",
+            "lastDirtyTimestamp": "1550462099582",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-OP:1.0.0",
+        "instance": [
+          {
+            "instanceId": "1c22ddd7d7:sparta-op:1.0.0:80",
+            "hostName": "10.42.114.232",
+            "app": "SPARTA-OP:1.0.0",
+            "ipAddr": "10.42.114.232",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1546832790771,
+              "lastRenewalTimestamp": 1552361634118,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790771
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.114.232:80/",
+            "statusPageUrl": "http://10.42.114.232:80/info",
+            "healthCheckUrl": "http://10.42.114.232:80/health",
+            "vipAddress": "sparta-op:1.0.0",
+            "secureVipAddress": "sparta-op:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1546832790771",
+            "lastDirtyTimestamp": "1546774534388",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "DRAGONBALL-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "4b219c2ec4af:DragonBall-service:1.0.0:15044",
+            "hostName": "10.42.32.68",
+            "app": "DRAGONBALL-SERVICE:1.0.0",
+            "ipAddr": "10.42.32.68",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15044,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099821,
+              "lastRenewalTimestamp": 1552361632205,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790744
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.32.68:15044/",
+            "statusPageUrl": "http://10.42.32.68:15044/info",
+            "healthCheckUrl": "http://10.42.32.68:15044/health",
+            "vipAddress": "DragonBall-service:1.0.0",
+            "secureVipAddress": "DragonBall-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099821",
+            "lastDirtyTimestamp": "1550462099487",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-API:1.0.0",
+        "instance": [
+          {
+            "instanceId": "8b1392b926:sparta-api:1.0.0:80",
+            "hostName": "10.42.210.132",
+            "app": "SPARTA-API:1.0.0",
+            "ipAddr": "10.42.210.132",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1546936842788,
+              "lastRenewalTimestamp": 1552361632012,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546936842788
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.210.132:80/",
+            "statusPageUrl": "http://10.42.210.132:80/info",
+            "healthCheckUrl": "http://10.42.210.132:80/health",
+            "vipAddress": "sparta-api:1.0.0",
+            "secureVipAddress": "sparta-api:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1546936842788",
+            "lastDirtyTimestamp": "1546936842788",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "CACIA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "1b70cd803646:cacia-service:1.0.0:15074",
+            "hostName": "10.42.244.222",
+            "app": "CACIA-SERVICE:1.0.0",
+            "ipAddr": "10.42.244.222",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15074,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099973,
+              "lastRenewalTimestamp": 1552361633646,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790813
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.244.222:15074/",
+            "statusPageUrl": "http://10.42.244.222:15074/info",
+            "healthCheckUrl": "http://10.42.244.222:15074/health",
+            "vipAddress": "cacia-service:1.0.0",
+            "secureVipAddress": "cacia-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099973",
+            "lastDirtyTimestamp": "1550462099451",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "TERRA-SERVICE:1.1.0",
+        "instance": [
+          {
+            "instanceId": "410c4f1f880e:terra-service:1.1.0:80",
+            "hostName": "10.42.82.243",
+            "app": "TERRA-SERVICE:1.1.0",
+            "ipAddr": "10.42.82.243",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552284919936,
+              "lastRenewalTimestamp": 1552361633646,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552284919936
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.82.243:80/",
+            "statusPageUrl": "http://10.42.82.243:80/info",
+            "healthCheckUrl": "http://10.42.82.243:80/health",
+            "vipAddress": "terra-service:1.1.0",
+            "secureVipAddress": "terra-service:1.1.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552284919936",
+            "lastDirtyTimestamp": "1552284919419",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "CERES-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "1e1acfc29f19:ceres-service:1.0.0:15031",
+            "hostName": "10.42.30.239",
+            "app": "CERES-SERVICE:1.0.0",
+            "ipAddr": "10.42.30.239",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099524,
+              "lastRenewalTimestamp": 1552361634377,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915674670
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.30.239:15031/",
+            "statusPageUrl": "http://10.42.30.239:15031/info",
+            "healthCheckUrl": "http://10.42.30.239:15031/health",
+            "vipAddress": "ceres-service:1.0.0",
+            "secureVipAddress": "ceres-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099525",
+            "lastDirtyTimestamp": "1550462099520",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "HECATE-TASK:1.0.0",
+        "instance": [
+          {
+            "instanceId": "202f405da7b1:hecate-task:1.0.0:8080",
+            "hostName": "10.42.244.47",
+            "app": "HECATE-TASK:1.0.0",
+            "ipAddr": "10.42.244.47",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 8080,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462089952,
+              "lastRenewalTimestamp": 1552361630052,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546839432373
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.244.47:8080/",
+            "statusPageUrl": "http://10.42.244.47:8080/info",
+            "healthCheckUrl": "http://10.42.244.47:8080/health",
+            "vipAddress": "hecate-task:1.0.0",
+            "secureVipAddress": "hecate-task:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462089952",
+            "lastDirtyTimestamp": "1550462089462",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NESOI-NODE-2-DAILY:1.0.0",
+        "instance": [
+          {
+            "instanceId": "2631733656:nesoi-node-2-daily:1.0.0:4017",
+            "hostName": "10.42.208.198",
+            "app": "NESOI-NODE-2-DAILY:1.0.0",
+            "ipAddr": "10.42.208.198",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1552356641504,
+              "lastRenewalTimestamp": 1552361710767,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552356641504
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.208.198:4017/",
+            "statusPageUrl": "http://10.42.208.198:4017/info",
+            "healthCheckUrl": "http://10.42.208.198:4017/health",
+            "vipAddress": "nesoi-node-2-daily:1.0.0",
+            "secureVipAddress": "nesoi-node-2-daily:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552356641504",
+            "lastDirtyTimestamp": "1552356641504",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SYT-LOGIN:1.0.0",
+        "instance": [
+          {
+            "instanceId": "73c9a857b1:syt-login:1.0.0:80",
+            "hostName": "10.42.98.96",
+            "app": "SYT-LOGIN:1.0.0",
+            "ipAddr": "10.42.98.96",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1547171365476,
+              "lastRenewalTimestamp": 1552361630948,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1547171365477
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.98.96:80/",
+            "statusPageUrl": "http://10.42.98.96:80/info",
+            "healthCheckUrl": "http://10.42.98.96:80/health",
+            "vipAddress": "syt-login:1.0.0",
+            "secureVipAddress": "syt-login:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1547171365477",
+            "lastDirtyTimestamp": "1547171365476",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "AIMEE-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "b7ac8018de8e:aimee-service:1.0.0:15014",
+            "hostName": "10.42.84.174",
+            "app": "AIMEE-SERVICE:1.0.0",
+            "ipAddr": "10.42.84.174",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15014,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552275010581,
+              "lastRenewalTimestamp": 1552361629891,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552275010582
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.84.174:15014/",
+            "statusPageUrl": "http://10.42.84.174:15014/info",
+            "healthCheckUrl": "http://10.42.84.174:15014/health",
+            "vipAddress": "aimee-service:1.0.0",
+            "secureVipAddress": "aimee-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552275010582",
+            "lastDirtyTimestamp": "1552275010485",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "PENDRAGON-NODE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "ce6fb41a23:pendragon-node:1.0.0:8811",
+            "hostName": "10.42.42.32",
+            "app": "PENDRAGON-NODE:1.0.0",
+            "ipAddr": "10.42.42.32",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 8811,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1546832790774,
+              "lastRenewalTimestamp": 1552361712080,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790153
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.42.32:8811/",
+            "statusPageUrl": "http://10.42.42.32:8811/info",
+            "healthCheckUrl": "http://10.42.42.32:8811/health",
+            "vipAddress": "pendragon-node:1.0.0",
+            "secureVipAddress": "pendragon-node:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1546832790774",
+            "lastDirtyTimestamp": "1546832790152",
+            "actionType": "ADDED"
+          },
+          {
+            "instanceId": "85bafe5bf4:pendragon-node:1.0.0:8811",
+            "hostName": "10.42.100.6",
+            "app": "PENDRAGON-NODE:1.0.0",
+            "ipAddr": "10.42.100.6",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 8811,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1546832790741,
+              "lastRenewalTimestamp": 1552361712788,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790741
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.100.6:8811/",
+            "statusPageUrl": "http://10.42.100.6:8811/info",
+            "healthCheckUrl": "http://10.42.100.6:8811/health",
+            "vipAddress": "pendragon-node:1.0.0",
+            "secureVipAddress": "pendragon-node:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1546832790741",
+            "lastDirtyTimestamp": "1546770069219",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "HOTEL-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "977c6cb1d149:hotel-service:1.0.0:15033",
+            "hostName": "10.42.65.209",
+            "app": "HOTEL-SERVICE:1.0.0",
+            "ipAddr": "10.42.65.209",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15033,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099558,
+              "lastRenewalTimestamp": 1552361634602,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790765
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.65.209:15033/",
+            "statusPageUrl": "http://10.42.65.209:15033/info",
+            "healthCheckUrl": "http://10.42.65.209:15033/health",
+            "vipAddress": "hotel-service:1.0.0",
+            "secureVipAddress": "hotel-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099558",
+            "lastDirtyTimestamp": "1550462099555",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NESOI-GSK-TOOL-NODE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "1c68cb80d9:nesoi-gsk-tool-node:1.0.0:4017",
+            "hostName": "10.42.82.117",
+            "app": "NESOI-GSK-TOOL-NODE:1.0.0",
+            "ipAddr": "10.42.82.117",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1552359945970,
+              "lastRenewalTimestamp": 1552361711621,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552359945970
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.82.117:4017/",
+            "statusPageUrl": "http://10.42.82.117:4017/info",
+            "healthCheckUrl": "http://10.42.82.117:4017/health",
+            "vipAddress": "nesoi-gsk-tool-node:1.0.0",
+            "secureVipAddress": "nesoi-gsk-tool-node:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552359945970",
+            "lastDirtyTimestamp": "1552359945969",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "TERRA-NODE:2.0.0",
+        "instance": [
+          {
+            "instanceId": "7db03e7081:terra-node:2.0.0:80",
+            "hostName": "10.42.106.85",
+            "app": "TERRA-NODE:2.0.0",
+            "ipAddr": "10.42.106.85",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1546832790774,
+              "lastRenewalTimestamp": 1552361712029,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790774
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.106.85:80/",
+            "statusPageUrl": "http://10.42.106.85:80/info",
+            "healthCheckUrl": "http://10.42.106.85:80/health",
+            "vipAddress": "terra-node:2.0.0",
+            "secureVipAddress": "terra-node:2.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1546832790774",
+            "lastDirtyTimestamp": "1546770073518",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "DATAPROCESSING-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "dfa2c9f52620:dataprocessing-service:1.0.0:15031",
+            "hostName": "10.42.202.62",
+            "app": "DATAPROCESSING-SERVICE:1.0.0",
+            "ipAddr": "10.42.202.62",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552041894396,
+              "lastRenewalTimestamp": 1552361631930,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552041894396
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.202.62:15031/",
+            "statusPageUrl": "http://10.42.202.62:15031/info",
+            "healthCheckUrl": "http://10.42.202.62:15031/health",
+            "vipAddress": "dataprocessing-service:1.0.0",
+            "secureVipAddress": "dataprocessing-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552041894396",
+            "lastDirtyTimestamp": "1552041893972",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NEPTUNUS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "060f36c4da99:neptunus-service:1.0.0:10051",
+            "hostName": "10.42.246.219",
+            "app": "NEPTUNUS-SERVICE:1.0.0",
+            "ipAddr": "10.42.246.219",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 10051,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551699159681,
+              "lastRenewalTimestamp": 1552361630410,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551699159325
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.246.219:10051/",
+            "statusPageUrl": "http://10.42.246.219:10051/info",
+            "healthCheckUrl": "http://10.42.246.219:10051/health",
+            "vipAddress": "neptunus-service:1.0.0",
+            "secureVipAddress": "neptunus-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551699159681",
+            "lastDirtyTimestamp": "1551699158298",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "BIO-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "95dc50bdfa30:bio-service:1.0.0:15032",
+            "hostName": "10.42.7.211",
+            "app": "BIO-SERVICE:1.0.0",
+            "ipAddr": "10.42.7.211",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15032,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099975,
+              "lastRenewalTimestamp": 1552361634156,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1549952047388
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.7.211:15032/",
+            "statusPageUrl": "http://10.42.7.211:15032/info",
+            "healthCheckUrl": "http://10.42.7.211:15032/health",
+            "vipAddress": "bio-service:1.0.0",
+            "secureVipAddress": "bio-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099975",
+            "lastDirtyTimestamp": "1550462099594",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NESOI-NODE-2-DAILY-SOCKET:1.0.0",
+        "instance": [
+          {
+            "instanceId": "0b346a0644:nesoi-node-2-daily-socket:1.0.0:4017",
+            "hostName": "10.42.130.164",
+            "app": "NESOI-NODE-2-DAILY-SOCKET:1.0.0",
+            "ipAddr": "10.42.130.164",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1551829488698,
+              "lastRenewalTimestamp": 1552361712243,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551829488698
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.130.164:4017/",
+            "statusPageUrl": "http://10.42.130.164:4017/info",
+            "healthCheckUrl": "http://10.42.130.164:4017/health",
+            "vipAddress": "nesoi-node-2-daily-socket:1.0.0",
+            "secureVipAddress": "nesoi-node-2-daily-socket:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551829488698",
+            "lastDirtyTimestamp": "1551829488698",
+            "actionType": "ADDED"
+          },
+          {
+            "instanceId": "54b9d60613:nesoi-node-2-daily-socket:1.0.0:4017",
+            "hostName": "10.42.92.54",
+            "app": "NESOI-NODE-2-DAILY-SOCKET:1.0.0",
+            "ipAddr": "10.42.92.54",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1552138447096,
+              "lastRenewalTimestamp": 1552361710480,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552138447096
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.92.54:4017/",
+            "statusPageUrl": "http://10.42.92.54:4017/info",
+            "healthCheckUrl": "http://10.42.92.54:4017/health",
+            "vipAddress": "nesoi-node-2-daily-socket:1.0.0",
+            "secureVipAddress": "nesoi-node-2-daily-socket:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552138447096",
+            "lastDirtyTimestamp": "1552138447096",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "UNSIGNED-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "0b5436d55ab9:unsigned-service:1.0.0:15031",
+            "hostName": "10.42.81.198",
+            "app": "UNSIGNED-SERVICE:1.0.0",
+            "ipAddr": "10.42.81.198",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551765168170,
+              "lastRenewalTimestamp": 1552361633646,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551765168171
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.81.198:15031/",
+            "statusPageUrl": "http://10.42.81.198:15031/info",
+            "healthCheckUrl": "http://10.42.81.198:15031/health",
+            "vipAddress": "unsigned-service:1.0.0",
+            "secureVipAddress": "unsigned-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551765168171",
+            "lastDirtyTimestamp": "1551765167816",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NESOI-NODE-TEST-DAILY:1.0.0",
+        "instance": [
+          {
+            "instanceId": "358a634eef:nesoi-node-test-daily:1.0.0:4017",
+            "hostName": "10.42.227.100",
+            "app": "NESOI-NODE-TEST-DAILY:1.0.0",
+            "ipAddr": "10.42.227.100",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1551825136335,
+              "lastRenewalTimestamp": 1552361713357,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551825136336
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.227.100:4017/",
+            "statusPageUrl": "http://10.42.227.100:4017/info",
+            "healthCheckUrl": "http://10.42.227.100:4017/health",
+            "vipAddress": "nesoi-node-test-daily:1.0.0",
+            "secureVipAddress": "nesoi-node-test-daily:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551825136336",
+            "lastDirtyTimestamp": "1551825136335",
+            "actionType": "ADDED"
+          },
+          {
+            "instanceId": "ff236a2e7b:nesoi-node-test-daily:1.0.0:4017",
+            "hostName": "10.42.225.67",
+            "app": "NESOI-NODE-TEST-DAILY:1.0.0",
+            "ipAddr": "10.42.225.67",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1551824447063,
+              "lastRenewalTimestamp": 1552361714613,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551824447063
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.225.67:4017/",
+            "statusPageUrl": "http://10.42.225.67:4017/info",
+            "healthCheckUrl": "http://10.42.225.67:4017/health",
+            "vipAddress": "nesoi-node-test-daily:1.0.0",
+            "secureVipAddress": "nesoi-node-test-daily:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551824447063",
+            "lastDirtyTimestamp": "1551824447063",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "PONTUS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "66dd7f78f47a:pontus-service:1.0.0:15014",
+            "hostName": "10.42.30.226",
+            "app": "PONTUS-SERVICE:1.0.0",
+            "ipAddr": "10.42.30.226",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15014,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552032976127,
+              "lastRenewalTimestamp": 1552361630562,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550657285417
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.30.226:15014/",
+            "statusPageUrl": "http://10.42.30.226:15014/info",
+            "healthCheckUrl": "http://10.42.30.226:15014/health",
+            "vipAddress": "pontus-service:1.0.0",
+            "secureVipAddress": "pontus-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552032976128",
+            "lastDirtyTimestamp": "1552032976121",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MNEMOSYNE-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "1ada2cfbb89a:mnemosyne-service:1.0.0:15020",
+            "hostName": "10.42.223.250",
+            "app": "MNEMOSYNE-SERVICE:1.0.0",
+            "ipAddr": "10.42.223.250",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15020,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099974,
+              "lastRenewalTimestamp": 1552361633092,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546839818904
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.223.250:15020/",
+            "statusPageUrl": "http://10.42.223.250:15020/info",
+            "healthCheckUrl": "http://10.42.223.250:15020/health",
+            "vipAddress": "mnemosyne-service:1.0.0",
+            "secureVipAddress": "mnemosyne-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099974",
+            "lastDirtyTimestamp": "1550462099541",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "TERRA-FK-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "ee9bc4904d67:terra-fk-service:1.0.0:15010",
+            "hostName": "10.42.76.32",
+            "app": "TERRA-FK-SERVICE:1.0.0",
+            "ipAddr": "10.42.76.32",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15010,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552184672160,
+              "lastRenewalTimestamp": 1552361634157,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552184672161
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.76.32:15010/",
+            "statusPageUrl": "http://10.42.76.32:15010/info",
+            "healthCheckUrl": "http://10.42.76.32:15010/health",
+            "vipAddress": "terra-fk-service:1.0.0",
+            "secureVipAddress": "terra-fk-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552184672161",
+            "lastDirtyTimestamp": "1552184671687",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "HORAE-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "d30aed3319c5:horae-service:1.0.0:15033",
+            "hostName": "10.42.49.249",
+            "app": "HORAE-SERVICE:1.0.0",
+            "ipAddr": "10.42.49.249",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15033,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099393,
+              "lastRenewalTimestamp": 1552361632483,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790790
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.49.249:15033/",
+            "statusPageUrl": "http://10.42.49.249:15033/info",
+            "healthCheckUrl": "http://10.42.49.249:15033/health",
+            "vipAddress": "horae-service:1.0.0",
+            "secureVipAddress": "horae-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099393",
+            "lastDirtyTimestamp": "1550462099357",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "GAEA-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "2430dfbf394e:gaea-service:1.0.0:15131",
+            "hostName": "10.42.60.67",
+            "app": "GAEA-SERVICE:1.0.0",
+            "ipAddr": "10.42.60.67",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15131,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099638,
+              "lastRenewalTimestamp": 1552361633408,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915711439
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.60.67:15131/",
+            "statusPageUrl": "http://10.42.60.67:15131/info",
+            "healthCheckUrl": "http://10.42.60.67:15131/health",
+            "vipAddress": "gaea-service:1.0.0",
+            "secureVipAddress": "gaea-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099638",
+            "lastDirtyTimestamp": "1550462099634",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NYX-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "dc399776abdf:nyx-service:1.0.0:15210",
+            "hostName": "10.42.85.40",
+            "app": "NYX-SERVICE:1.0.0",
+            "ipAddr": "10.42.85.40",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15210,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099741,
+              "lastRenewalTimestamp": 1552361633232,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915739547
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.85.40:15210/",
+            "statusPageUrl": "http://10.42.85.40:15210/info",
+            "healthCheckUrl": "http://10.42.85.40:15210/health",
+            "vipAddress": "nyx-service:1.0.0",
+            "secureVipAddress": "nyx-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099741",
+            "lastDirtyTimestamp": "1550462099738",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MANTO-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "e002f70e3374:manto-service:1.0.0:15044",
+            "hostName": "10.42.172.105",
+            "app": "MANTO-SERVICE:1.0.0",
+            "ipAddr": "10.42.172.105",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15044,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551324793672,
+              "lastRenewalTimestamp": 1552361632205,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551324793672
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.172.105:15044/",
+            "statusPageUrl": "http://10.42.172.105:15044/info",
+            "healthCheckUrl": "http://10.42.172.105:15044/health",
+            "vipAddress": "manto-service:1.0.0",
+            "secureVipAddress": "manto-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551324793672",
+            "lastDirtyTimestamp": "1551324792889",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "ZEUS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "b6da4d91f6c2:zeus-service:1.0.0:15014",
+            "hostName": "10.42.41.173",
+            "app": "ZEUS-SERVICE:1.0.0",
+            "ipAddr": "10.42.41.173",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15014,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550657418132,
+              "lastRenewalTimestamp": 1552361631872,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550657418132
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.41.173:15014/",
+            "statusPageUrl": "http://10.42.41.173:15014/info",
+            "healthCheckUrl": "http://10.42.41.173:15014/health",
+            "vipAddress": "zeus-service:1.0.0",
+            "secureVipAddress": "zeus-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550657418132",
+            "lastDirtyTimestamp": "1550657418120",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MESSAGE-NOTIFY-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "ba8ea3a5247c:message-notify-service:1.0.0:18008",
+            "hostName": "10.42.105.55",
+            "app": "MESSAGE-NOTIFY-SERVICE:1.0.0",
+            "ipAddr": "10.42.105.55",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 18008,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099974,
+              "lastRenewalTimestamp": 1552361630051,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546839819552
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.105.55:18008/",
+            "statusPageUrl": "http://10.42.105.55:18008/info",
+            "healthCheckUrl": "http://10.42.105.55:18008/health",
+            "vipAddress": "message-notify-service:1.0.0",
+            "secureVipAddress": "message-notify-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099974",
+            "lastDirtyTimestamp": "1550462099573",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NESOI-NODE-DAILY:1.0.0",
+        "instance": [
+          {
+            "instanceId": "0375f8f6a4:nesoi-node-daily:1.0.0:4017",
+            "hostName": "10.42.72.252",
+            "app": "NESOI-NODE-DAILY:1.0.0",
+            "ipAddr": "10.42.72.252",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1551948429602,
+              "lastRenewalTimestamp": 1552361712483,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551948429602
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.72.252:4017/",
+            "statusPageUrl": "http://10.42.72.252:4017/info",
+            "healthCheckUrl": "http://10.42.72.252:4017/health",
+            "vipAddress": "nesoi-node-daily:1.0.0",
+            "secureVipAddress": "nesoi-node-daily:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551948429602",
+            "lastDirtyTimestamp": "1551948429329",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-APPROVAL:1.0.0",
+        "instance": [
+          {
+            "instanceId": "5b80164714:sparta-approval:1.0.0:80",
+            "hostName": "10.42.149.53",
+            "app": "SPARTA-APPROVAL:1.0.0",
+            "ipAddr": "10.42.149.53",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552025533778,
+              "lastRenewalTimestamp": 1552361631386,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552025533778
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.149.53:80/",
+            "statusPageUrl": "http://10.42.149.53:80/info",
+            "healthCheckUrl": "http://10.42.149.53:80/health",
+            "vipAddress": "sparta-approval:1.0.0",
+            "secureVipAddress": "sparta-approval:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552025533778",
+            "lastDirtyTimestamp": "1552025533568",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "AIMEE-SERVICE:1.0.0.LOCAL",
+        "instance": [
+          {
+            "instanceId": "10.100.0.151:aimee-service:1.0.0.local:15014",
+            "hostName": "10.100.0.151",
+            "app": "AIMEE-SERVICE:1.0.0.LOCAL",
+            "ipAddr": "10.100.0.151",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15014,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552356620460,
+              "lastRenewalTimestamp": 1552361634156,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552356620460
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.100.0.151:15014/",
+            "statusPageUrl": "http://10.100.0.151:15014/info",
+            "healthCheckUrl": "http://10.100.0.151:15014/health",
+            "vipAddress": "aimee-service:1.0.0.local",
+            "secureVipAddress": "aimee-service:1.0.0.local",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552356620460",
+            "lastDirtyTimestamp": "1552356261664",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NEPTUNUS-SEARCH:1.0.0",
+        "instance": [
+          {
+            "instanceId": "c7aa8b77292a:neptunus-search:1.0.0:15044",
+            "hostName": "10.42.47.215",
+            "app": "NEPTUNUS-SEARCH:1.0.0",
+            "ipAddr": "10.42.47.215",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15044,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099974,
+              "lastRenewalTimestamp": 1552361631930,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546856577055
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.47.215:15044/",
+            "statusPageUrl": "http://10.42.47.215:15044/info",
+            "healthCheckUrl": "http://10.42.47.215:15044/health",
+            "vipAddress": "neptunus-search:1.0.0",
+            "secureVipAddress": "neptunus-search:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099974",
+            "lastDirtyTimestamp": "1550462099575",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-APP-CTRIP:0.1.0",
+        "instance": [
+          {
+            "instanceId": "abeaa26736:sparta-app-ctrip:0.1.0:80",
+            "hostName": "10.42.132.108",
+            "app": "SPARTA-APP-CTRIP:0.1.0",
+            "ipAddr": "10.42.132.108",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 80,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1546832790806,
+              "lastRenewalTimestamp": 1552361630412,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790806
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.132.108:80/",
+            "statusPageUrl": "http://10.42.132.108:80/info",
+            "healthCheckUrl": "http://10.42.132.108:80/health",
+            "vipAddress": "sparta-app-ctrip:0.1.0",
+            "secureVipAddress": "sparta-app-ctrip:0.1.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1546832790806",
+            "lastDirtyTimestamp": "1546770058499",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SAMOYED-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "01595b892b0e:samoyed-service:1.0.0:11071",
+            "hostName": "10.42.163.6",
+            "app": "SAMOYED-SERVICE:1.0.0",
+            "ipAddr": "10.42.163.6",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 11071,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1551779600903,
+              "lastRenewalTimestamp": 1552361630052,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1551779600349
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.163.6:11071/",
+            "statusPageUrl": "http://10.42.163.6:11071/info",
+            "healthCheckUrl": "http://10.42.163.6:11071/health",
+            "vipAddress": "samoyed-service:1.0.0",
+            "secureVipAddress": "samoyed-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1551779600903",
+            "lastDirtyTimestamp": "1551779599860",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MOSES-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "bfe572bac883:moses-service:1.0.0:15031",
+            "hostName": "10.42.10.72",
+            "app": "MOSES-SERVICE:1.0.0",
+            "ipAddr": "10.42.10.72",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15031,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099975,
+              "lastRenewalTimestamp": 1552361630051,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546832790820
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.10.72:15031/",
+            "statusPageUrl": "http://10.42.10.72:15031/info",
+            "healthCheckUrl": "http://10.42.10.72:15031/health",
+            "vipAddress": "moses-service:1.0.0",
+            "secureVipAddress": "moses-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099975",
+            "lastDirtyTimestamp": "1550462099580",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "MEETING-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "4ae8727a33dd:meeting-service:1.0.0:15033",
+            "hostName": "10.42.224.71",
+            "app": "MEETING-SERVICE:1.0.0",
+            "ipAddr": "10.42.224.71",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15033,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099650,
+              "lastRenewalTimestamp": 1552361632962,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1547534791171
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.224.71:15033/",
+            "statusPageUrl": "http://10.42.224.71:15033/info",
+            "healthCheckUrl": "http://10.42.224.71:15033/health",
+            "vipAddress": "meeting-service:1.0.0",
+            "secureVipAddress": "meeting-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099650",
+            "lastDirtyTimestamp": "1550462099646",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "SPARTA-SEARCH:1.0.0",
+        "instance": [
+          {
+            "instanceId": "47522b298897:sparta-search:1.0.0:15044",
+            "hostName": "10.42.64.134",
+            "app": "SPARTA-SEARCH:1.0.0",
+            "ipAddr": "10.42.64.134",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15044,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552184726680,
+              "lastRenewalTimestamp": 1552361633645,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552184726680
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.64.134:15044/",
+            "statusPageUrl": "http://10.42.64.134:15044/info",
+            "healthCheckUrl": "http://10.42.64.134:15044/health",
+            "vipAddress": "sparta-search:1.0.0",
+            "secureVipAddress": "sparta-search:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552184726680",
+            "lastDirtyTimestamp": "1552184726382",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NESOI-NODE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "2dd6996bf7:nesoi-node:1.0.0:4017",
+            "hostName": "10.100.0.92",
+            "app": "NESOI-NODE:1.0.0",
+            "ipAddr": "10.100.0.92",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1552356409163,
+              "lastRenewalTimestamp": 1552361714157,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552356409163
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.100.0.92:4017/",
+            "statusPageUrl": "http://10.100.0.92:4017/info",
+            "healthCheckUrl": "http://10.100.0.92:4017/health",
+            "vipAddress": "nesoi-node:1.0.0",
+            "secureVipAddress": "nesoi-node:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552356409163",
+            "lastDirtyTimestamp": "1552356409163",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "TERRAN-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "fc9999bf1825:terran-service:1.0.0:15014",
+            "hostName": "10.42.82.172",
+            "app": "TERRAN-SERVICE:1.0.0",
+            "ipAddr": "10.42.82.172",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15014,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1552293643736,
+              "lastRenewalTimestamp": 1552361632492,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1552293643736
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.82.172:15014/",
+            "statusPageUrl": "http://10.42.82.172:15014/info",
+            "healthCheckUrl": "http://10.42.82.172:15014/health",
+            "vipAddress": "terran-service:1.0.0",
+            "secureVipAddress": "terran-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1552293643736",
+            "lastDirtyTimestamp": "1552293643726",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "BUDGET-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "fed043985658:budget-service:1.0.0:15090",
+            "hostName": "10.42.248.104",
+            "app": "BUDGET-SERVICE:1.0.0",
+            "ipAddr": "10.42.248.104",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15090,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550672668333,
+              "lastRenewalTimestamp": 1552361634545,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1550672668333
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.248.104:15090/",
+            "statusPageUrl": "http://10.42.248.104:15090/info",
+            "healthCheckUrl": "http://10.42.248.104:15090/health",
+            "vipAddress": "budget-service:1.0.0",
+            "secureVipAddress": "budget-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550672668333",
+            "lastDirtyTimestamp": "1550672668248",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "THEMIS-SERVICE:1.0.0",
+        "instance": [
+          {
+            "instanceId": "8b8ca0a12ce1:themis-service:1.0.0:15054",
+            "hostName": "10.42.140.12",
+            "app": "THEMIS-SERVICE:1.0.0",
+            "ipAddr": "10.42.140.12",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 15054,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 443,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 5,
+              "durationInSecs": 10,
+              "registrationTimestamp": 1550462099975,
+              "lastRenewalTimestamp": 1552361631385,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1546915764668
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.140.12:15054/",
+            "statusPageUrl": "http://10.42.140.12:15054/info",
+            "healthCheckUrl": "http://10.42.140.12:15054/health",
+            "vipAddress": "themis-service:1.0.0",
+            "secureVipAddress": "themis-service:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1550462099975",
+            "lastDirtyTimestamp": "1550462099598",
+            "actionType": "ADDED"
+          }
+        ]
+      },
+      {
+        "name": "NAGA-DEV:1.0.0",
+        "instance": [
+          {
+            "instanceId": "86ea667257:naga-dev:1.0.0:4017",
+            "hostName": "10.42.117.81",
+            "app": "NAGA-DEV:1.0.0",
+            "ipAddr": "10.42.117.81",
+            "status": "UP",
+            "overriddenstatus": "UNKNOWN",
+            "port": {
+              "$": 4017,
+              "@enabled": "true"
+            },
+            "securePort": {
+              "$": 7002,
+              "@enabled": "false"
+            },
+            "countryId": 1,
+            "dataCenterInfo": {
+              "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+              "name": "MyOwn"
+            },
+            "leaseInfo": {
+              "renewalIntervalInSecs": 30,
+              "durationInSecs": 90,
+              "registrationTimestamp": 1549951200084,
+              "lastRenewalTimestamp": 1552361713269,
+              "evictionTimestamp": 0,
+              "serviceUpTimestamp": 1549951200084
+            },
+            "metadata": {
+              "@class": "java.util.Collections$EmptyMap"
+            },
+            "homePageUrl": "http://10.42.117.81:4017/",
+            "statusPageUrl": "http://10.42.117.81:4017/info",
+            "healthCheckUrl": "http://10.42.117.81:4017/health",
+            "vipAddress": "naga-dev:1.0.0",
+            "secureVipAddress": "naga-dev:1.0.0",
+            "isCoordinatingDiscoveryServer": "false",
+            "lastUpdatedTimestamp": "1549951200084",
+            "lastDirtyTimestamp": "1549951199571",
+            "actionType": "ADDED"
+          }
+        ]
+      }
+    ]
+  }
+}
