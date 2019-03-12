@@ -1,3 +1,4 @@
+require("make-promises-safe");
 const request = require("request-promise");
 const _ = require("lodash");
 

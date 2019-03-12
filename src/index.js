@@ -1,3 +1,4 @@
+require("make-promises-safe");
 const EurekaFetcher = require("./eurekaFetcher");
 const KongFetcher = require("./KongFetcher");
 const { diffWithEurekaAndKong } = require("./diff");

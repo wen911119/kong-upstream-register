@@ -7,13 +7,8 @@ const diffNewEurekaAndOldEureka = (
   eurekaServicesInfoOld
 ) => {
   if (_.isEmpty(eurekaServicesInfoNew)) {
-    console.log(eurekaServicesInfoNew, 'eurekaServicesInfoNew')
     return null;
   }
-  if (_.isEqual(eurekaServicesInfoNew, eurekaServicesInfoOld)) {
-    return null;
-  }
-
   // 如果做的粗糙一点，直接用differenceWith(old, new, _.isEqual)找出要删除的upstream
   // 直接用differenceWith(new, old, _.isEqual)找出新增的upstream
   // 这里做的细致一点，先找出删的，再找出加的，最后再对更新的进一步对比
@@ -48,18 +43,22 @@ const diffNewEurekaAndOldEureka = (
         id: formatName(key),
         targets: {
           remove: _.differenceWith(
-            eurekaServicesInfoOld[key].instance,
-            eurekaServicesInfoNew[key].instance,
-            _.isEqual
+            eurekaServicesInfoOld[key],
+            eurekaServicesInfoNew[key],
+            (arrVal, othVal) =>
+              `${arrVal.hostName}:${arrVal.port.$}` ===
+              `${othVal.hostName}:${othVal.port.$}`
           ).map(instance => {
             return {
               id: `${instance.hostName}:${instance.port.$}`
             };
           }),
           add: _.differenceWith(
-            eurekaServicesInfoNew[key].instance,
-            eurekaServicesInfoOld[key].instance,
-            _.isEqual
+            eurekaServicesInfoNew[key],
+            eurekaServicesInfoOld[key],
+            (arrVal, othVal) =>
+              `${arrVal.hostName}:${arrVal.port.$}` ===
+              `${othVal.hostName}:${othVal.port.$}`
           ).map(instance => {
             return {
               target: `${instance.hostName}:${instance.port.$}`
