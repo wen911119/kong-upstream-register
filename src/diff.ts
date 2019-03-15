@@ -1,11 +1,18 @@
-const _ = require("lodash");
+import _ from "lodash";
 
-const formatName = key => key.replace(/[:|.]/g, "-") + ".eureka.internal";
+const formatName = (key:string) => key.replace(/[:|.]/g, "-") + ".eureka.internal";
+import { UpStream, UpStreamWithTargets, UpStreamToUpdate } from "./kongFetcher";
+import { EurekaAppsInfoMap } from "./eurekaFetcher";
+export interface ChangedAppsInfo {
+  remove: UpStream[];
+  add: UpStreamWithTargets[];
+  update: UpStreamToUpdate[];
+}
 
-const diffNewEurekaAndOldEureka = (
-  eurekaServicesInfoNew,
-  eurekaServicesInfoOld
-) => {
+export const diffNewEurekaAndOldEureka = (
+  eurekaServicesInfoNew: EurekaAppsInfoMap,
+  eurekaServicesInfoOld: EurekaAppsInfoMap
+): ChangedAppsInfo => {
   if (_.isEmpty(eurekaServicesInfoNew)) {
     return null;
   }
@@ -16,7 +23,7 @@ const diffNewEurekaAndOldEureka = (
   const removedKeys = _.difference(
     Object.keys(eurekaServicesInfoOld),
     Object.keys(eurekaServicesInfoNew)
-  ).map(key => {
+  ).map((key:string) => {
     return {
       id: formatName(key)
     };
@@ -24,7 +31,7 @@ const diffNewEurekaAndOldEureka = (
   const addedKeys = _.difference(
     Object.keys(eurekaServicesInfoNew),
     Object.keys(eurekaServicesInfoOld)
-  ).map(key => {
+  ).map((key:string) => {
     return {
       name: formatName(key),
       targets: eurekaServicesInfoNew[key].map(instance => {
@@ -38,7 +45,7 @@ const diffNewEurekaAndOldEureka = (
     Object.keys(eurekaServicesInfoOld),
     Object.keys(eurekaServicesInfoNew)
   )
-    .map(key => {
+    .map((key:string) => {
       return {
         id: formatName(key),
         targets: {
@@ -121,7 +128,10 @@ const diffNewEurekaAndOldEureka = (
   // };
 };
 
-const diffWithEurekaAndKong = (eurekaServicesInfo, kongUpStreamInfo) => {
+export const diffWithEurekaAndKong = (
+  eurekaServicesInfo: EurekaAppsInfoMap,
+  kongUpStreamInfo: UpStreamWithTargets[]
+): ChangedAppsInfo => {
   // const temp1 = {
   //   "LEO-SERVICE:1.0.0": [
   //     {
@@ -230,9 +240,4 @@ const diffWithEurekaAndKong = (eurekaServicesInfo, kongUpStreamInfo) => {
     // 待新增upstreams
     add: addedKeys
   };
-};
-
-module.exports = {
-  diffNewEurekaAndOldEureka,
-  diffWithEurekaAndKong
 };

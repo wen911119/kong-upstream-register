@@ -1,27 +1,51 @@
-require("make-promises-safe");
-const request = require("request-promise");
-const _ = require("lodash");
+import("make-promises-safe");
+import request from "request-promise";
+import _ from "lodash";
+
+export interface UpStream {
+  id?: string;
+  name?: string;
+}
+
+export interface Target {
+  id?: string;
+  target?: string;
+}
+
+export interface UpStreamWithTargets extends UpStream {
+  targets: Target[];
+}
+
+export interface UpStreamToUpdate extends UpStream {
+  targets: TargetsUpdateDescriber;
+}
+
+export interface TargetsUpdateDescriber {
+  remove: Target[];
+  add: Target[];
+}
 
 class KongFetcher {
+  private url: string;
   constructor(kongAdminUrl) {
     this.url = kongAdminUrl;
-    this.getAllUpstreams = this.getAllUpstreams.bind(this);
-    this.getUpstreams = this.getUpstreams.bind(this);
-    this.getUpstream = this.getUpstream.bind(this);
-    this.addUpstream = this.addUpstream.bind(this);
-    this.addUpstreams = this.addUpstreams.bind(this);
-    this.deleteUpstream = this.deleteUpstream.bind(this);
-    this.deleteUpstreams = this.deleteUpstreams.bind(this);
-    this.updateUpstreams = this.updateUpstreams.bind(this);
-    this.updateUpstream = this.updateUpstream.bind(this);
-    this.getTargets = this.getTargets.bind(this);
-    this.addTargets = this.addTargets.bind(this);
-    this.addTarget = this.addTarget.bind(this);
-    this.deleteTargets = this.deleteTargets.bind(this);
-    this.deleteTarget = this.deleteTarget.bind(this);
+    this.getAllUpstreams = this.getAllUpstreams.bind(this)
+    this.getUpstreams = this.getUpstreams.bind(this)
+    this.getUpstream = this.getUpstream.bind(this)
+    this.addUpstream = this.addUpstream.bind(this)
+    this.addUpstreams = this.addUpstreams.bind(this)
+    this.deleteUpstream = this.deleteUpstream.bind(this)
+    this.deleteUpstreams = this.deleteUpstreams.bind(this)
+    this.updateUpstreams = this.updateUpstreams.bind(this)
+    this.updateUpstream = this.updateUpstream.bind(this)
+    this.getTargets = this.getTargets.bind(this)
+    this.addTargets = this.addTargets.bind(this)
+    this.addTarget = this.addTarget.bind(this)
+    this.deleteTargets = this.deleteTargets.bind(this)
+    this.deleteTarget = this.deleteTarget.bind(this)
   }
-  async getAllUpstreams() {
-    let upstreams = [];
+  public async getAllUpstreams() {
+    let upstreams: UpStreamWithTargets[] = [];
     try {
       let nextUrl = `/upstreams`;
       let rets = [];
@@ -50,11 +74,12 @@ class KongFetcher {
     }
     return upstreams;
   }
-  async getUpstreams(upstreamIdsArr) {
+
+  public getUpstreams(upstreamIdsArr: string[]) {
     return upstreamIdsArr.map(this.getUpstream);
   }
-  async getUpstream(upstreamId) {
-    let upstream = {};
+  public async getUpstream(upstreamId: string) {
+    let upstream: UpStream = {};
     try {
       const { data } = await request({
         url: `${this.url}/upstreams/${upstreamId}`,
@@ -68,7 +93,7 @@ class KongFetcher {
     }
     return upstream;
   }
-  async addUpstream(upstreamToAdd) {
+  public async addUpstream(upstreamToAdd: UpStreamWithTargets) {
     let ret = false;
     try {
       const { name, targets } = upstreamToAdd;
@@ -86,7 +111,7 @@ class KongFetcher {
     }
     return ret;
   }
-  async addUpstreams(upstreamsToAdd) {
+  public async addUpstreams(upstreamsToAdd: UpStreamWithTargets[]) {
     if (upstreamsToAdd.length === 0) {
       return true;
     }
@@ -99,7 +124,7 @@ class KongFetcher {
     }
     return ret;
   }
-  async deleteUpstream(upstreamId) {
+  public async deleteUpstream(upstreamId: string) {
     let ret = false;
     try {
       await request({
@@ -112,7 +137,7 @@ class KongFetcher {
     }
     return ret;
   }
-  async deleteUpstreams(upstreams) {
+  public async deleteUpstreams(upstreams: UpStreamWithTargets[]) {
     let ret = false;
     if (upstreams.length == 0) {
       return true;
@@ -127,7 +152,7 @@ class KongFetcher {
     }
     return ret;
   }
-  async updateUpstreams(upstreamsToUpdate) {
+  public async updateUpstreams(upstreamsToUpdate: UpStreamToUpdate[]) {
     if (upstreamsToUpdate.length === 0) {
       return true;
     }
@@ -142,7 +167,7 @@ class KongFetcher {
     }
     return ret;
   }
-  async updateUpstream(updateDescriber) {
+  public async updateUpstream(updateDescriber: UpStreamToUpdate) {
     const { id, targets } = updateDescriber;
     const { add = [], remove = [] } = targets;
     let ret = false;
@@ -157,8 +182,8 @@ class KongFetcher {
     }
     return ret;
   }
-  async getTargets(upstreamId) {
-    let targets = [];
+  public async getTargets(upstreamId: string) {
+    let targets: Target[] = [];
     try {
       const { data } = await request({
         url: `${this.url}/upstreams/${upstreamId}/targets`,
@@ -172,7 +197,7 @@ class KongFetcher {
     }
     return targets;
   }
-  async addTargets(upstreamId, targets) {
+  public async addTargets(upstreamId: string, targets: Target[]) {
     if (targets.length === 0) {
       return true;
     }
@@ -187,7 +212,7 @@ class KongFetcher {
     }
     return ret;
   }
-  async addTarget(upstreamId, target) {
+  public async addTarget(upstreamId: string, target: Target) {
     let ret = false;
     try {
       const result = await request({
@@ -204,7 +229,7 @@ class KongFetcher {
     }
     return ret;
   }
-  async deleteTargets(upstreamId, targets) {
+  public async deleteTargets(upstreamId: string, targets: Target[]) {
     if (targets.length === 0) {
       return true;
     }
@@ -219,7 +244,7 @@ class KongFetcher {
     }
     return ret;
   }
-  async deleteTarget(upstreamId, target) {
+  public async deleteTarget(upstreamId: string, target: Target) {
     let ret = false;
     try {
       await request({
@@ -234,4 +259,4 @@ class KongFetcher {
   }
 }
 
-module.exports = KongFetcher;
+export default KongFetcher;

@@ -1,12 +1,12 @@
-require("make-promises-safe");
-const EurekaFetcher = require("./eurekaFetcher");
-const KongFetcher = require("./KongFetcher");
-const { diffWithEurekaAndKong } = require("./diff");
+import("make-promises-safe");
+import EurekaFetcher from "./eurekaFetcher";
+import KongFetcher from "./KongFetcher";
+import { diffWithEurekaAndKong } from "./diff";
 const EUREKA_URLS =
   process.env.EUREKA_URLS || "http://eureka.dev.quancheng-ec.com/eureka/apps";
 const KONG_HOST = process.env.KONG_HOST || "http://10.100.0.149:8001";
-const UPDATE_INTERVAL = process.env.UPDATE_INTERVAL || 3000;
-const MULTIPLE = process.env.MULTIPLE || 30;
+const UPDATE_INTERVAL: number = parseInt(process.env.UPDATE_INTERVAL || "3000");
+const MULTIPLE: number = parseInt(process.env.MULTIPLE || "30");
 const eureka = new EurekaFetcher(EUREKA_URLS);
 const kong = new KongFetcher(KONG_HOST);
 
@@ -47,15 +47,16 @@ const fullSync = async () => {
 (async () => {
   const fullSyncSuccess = await fullSync();
   console.log(`首次全量对比同步${fullSyncSuccess ? "成功" : "失败"}！`);
-  let count = 0;
+  // let count = 0;
   const start = async () => {
-    if (count === MULTIPLE) {
-      await fullSync();
-      count = 0;
-    } else {
-      await incrementalSync();
-      count++;
-    }
+    // if (count === MULTIPLE) {
+    //   await fullSync();
+    //   count = 0;
+    // } else {
+
+    //   count++;
+    // }
+    await incrementalSync();
     setTimeout(start, UPDATE_INTERVAL);
   };
   start();
