@@ -8,7 +8,7 @@ ADD start.sh /root
 
 WORKDIR /root
 RUN npm install
-RUN ls src
+RUN ls
 RUN npm run build
 
 CMD ["./start.sh"]
