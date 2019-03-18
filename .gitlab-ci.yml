@@ -1,0 +1,24 @@
+stages:
+  - docker-build
+before_script:
+  - >-
+    dockerservice=registry.docker.quancheng-ec.com:5000/kong-upstream-register:`TZ=CST-8 date
+    '+%Y%m%d-%H%M'`
+  - hostname -i
+  - whoami
+build_images:
+  stage: docker-build
+  script:
+    - docker -v 
+    - echo $image
+    - >-
+      if [ "`docker images | awk '/^registry.docker.quancheng-ec.com:5000/ {
+      print $3 }'`" ]; then docker rmi -f $(docker images | awk
+      '/^registry.docker.quancheng-ec.com:5000/ { print $3 }' ); fi
+    - echo "Build Docker Image..."
+    - docker build --no-cache -t $dockerservice .
+    - 'echo "Push Image:" $dockerservice " to repository..."'
+    - docker push $dockerservice
+  only:
+    - master
+    - develop
