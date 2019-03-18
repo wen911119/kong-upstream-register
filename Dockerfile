@@ -1,5 +1,4 @@
 FROM node:11.1.0
-RUN apk update && apk add bash && apk add --no-cache tzdata
 ENV TZ="Asia/Shanghai"
 
 ADD /src /root/src
