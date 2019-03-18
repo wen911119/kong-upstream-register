@@ -2,7 +2,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "dev": "ts-node ./src/index.ts",
-    "build": "tsc"
+    "build": "tsc --target es6 --moduleResolution node"
   },
   "dependencies": {
     "bluebird": "^3.5.3",
