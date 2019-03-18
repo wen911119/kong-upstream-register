@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:11.1.0-alpine
 RUN apk update && apk add bash && apk add --no-cache tzdata
 ENV TZ="Asia/Shanghai"
 
