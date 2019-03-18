@@ -8,7 +8,8 @@ ADD tsconfig.json /root
 ADD start.sh /root
 
 WORKDIR /root
-RUN npm install --registry=https://registry.npm.taobao.org && rm -rf /root/.npm*
+RUN npm install
+RUN ls src
 RUN npm run build
 
 CMD ["./start.sh"]
