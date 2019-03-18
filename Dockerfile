@@ -4,6 +4,7 @@ ENV TZ="Asia/Shanghai"
 
 ADD /src /root/src
 ADD package.json /root
+ADD tsconfig.json /root
 ADD start.sh /root
 
 WORKDIR /root
