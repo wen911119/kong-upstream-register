@@ -29,20 +29,20 @@ class KongFetcher {
   private url: string;
   constructor(kongAdminUrl) {
     this.url = kongAdminUrl;
-    this.getAllUpstreams = this.getAllUpstreams.bind(this)
-    this.getUpstreams = this.getUpstreams.bind(this)
-    this.getUpstream = this.getUpstream.bind(this)
-    this.addUpstream = this.addUpstream.bind(this)
-    this.addUpstreams = this.addUpstreams.bind(this)
-    this.deleteUpstream = this.deleteUpstream.bind(this)
-    this.deleteUpstreams = this.deleteUpstreams.bind(this)
-    this.updateUpstreams = this.updateUpstreams.bind(this)
-    this.updateUpstream = this.updateUpstream.bind(this)
-    this.getTargets = this.getTargets.bind(this)
-    this.addTargets = this.addTargets.bind(this)
-    this.addTarget = this.addTarget.bind(this)
-    this.deleteTargets = this.deleteTargets.bind(this)
-    this.deleteTarget = this.deleteTarget.bind(this)
+    this.getAllUpstreams = this.getAllUpstreams.bind(this);
+    this.getUpstreams = this.getUpstreams.bind(this);
+    this.getUpstream = this.getUpstream.bind(this);
+    this.addUpstream = this.addUpstream.bind(this);
+    this.addUpstreams = this.addUpstreams.bind(this);
+    this.deleteUpstream = this.deleteUpstream.bind(this);
+    this.deleteUpstreams = this.deleteUpstreams.bind(this);
+    this.updateUpstreams = this.updateUpstreams.bind(this);
+    this.updateUpstream = this.updateUpstream.bind(this);
+    this.getTargets = this.getTargets.bind(this);
+    this.addTargets = this.addTargets.bind(this);
+    this.addTarget = this.addTarget.bind(this);
+    this.deleteTargets = this.deleteTargets.bind(this);
+    this.deleteTarget = this.deleteTarget.bind(this);
   }
   public async getAllUpstreams() {
     let upstreams: UpStreamWithTargets[] = [];
@@ -58,16 +58,22 @@ class KongFetcher {
         rets = rets.concat(data);
       }
       if (rets && rets.length) {
-        upstreams = await Promise.all(
-          rets.map(async item => {
-            const targets = await this.getTargets(item.id);
-            return {
-              id: item.id,
-              name: item.name,
-              targets
-            };
-          })
-        );
+        const retsSets = _.chunk(rets, 20);
+        let jobs: any[] = retsSets.pop();
+        while (jobs) {
+          let temp = await Promise.all(
+            jobs.map(async item => {
+              const targets = await this.getTargets(item.id);
+              return {
+                id: item.id,
+                name: item.name,
+                targets
+              };
+            })
+          );
+          upstreams = upstreams.concat(temp);
+          jobs = retsSets.pop();
+        }
       }
     } catch (err) {
       console.log(err.toString());
