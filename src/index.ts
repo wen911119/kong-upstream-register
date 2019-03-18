@@ -1,6 +1,6 @@
 import("make-promises-safe");
 import EurekaFetcher from "./eurekaFetcher";
-import KongFetcher from "./KongFetcher";
+import KongFetcher from "./kongFetcher";
 import { diffWithEurekaAndKong } from "./diff";
 const EUREKA_URLS =
   process.env.EUREKA_URLS || "http://eureka.dev.quancheng-ec.com/eureka/apps";
