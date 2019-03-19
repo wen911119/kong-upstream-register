@@ -47,11 +47,11 @@ class KongFetcher {
   public async getAllUpstreams() {
     let upstreams: UpStreamWithTargets[] = [];
     try {
-      let nextUrl = `/upstreams`;
+      let nextUrl = `${this.url}/upstreams`;
       let rets = [];
       while (nextUrl) {
         const { data, next } = await request({
-          url: `${this.url}${nextUrl}`,
+          url: nextUrl,
           json: true
         });
         nextUrl = next;
