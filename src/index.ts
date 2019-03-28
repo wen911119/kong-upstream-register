@@ -45,8 +45,8 @@ const fullSync = async () => {
 };
 
 (async () => {
-  // const fullSyncSuccess = await fullSync();
-  // console.log(`首次全量对比同步${fullSyncSuccess ? "成功" : "失败"}！`);
+  const fullSyncSuccess = await fullSync();
+  console.log(`首次全量对比同步${fullSyncSuccess ? "成功" : "失败"}！`);
   // let count = 0;
   const start = async () => {
     // if (count === MULTIPLE) {
@@ -56,8 +56,8 @@ const fullSync = async () => {
 
     //   count++;
     // }
-    // await incrementalSync();
-    await fullSync();
+    await incrementalSync();
+    // await fullSync();
     setTimeout(start, UPDATE_INTERVAL);
   };
   start();
